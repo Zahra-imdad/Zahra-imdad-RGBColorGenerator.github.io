@@ -1,9 +1,10 @@
-function rgbColor(){
-    var red= document.getElementById('red');
-    var green= document.getElementById('green');
-    var blue= document.getElementById('blue');
+const red= document.getElementById('red');
+const green= document.getElementById('green');
+const blue= document.getElementById('blue');
 
-    var color1 = 'rgb('+red.value+','+ green.value+','+ blue.value+')';
+function rgbColor(){
+    
+    let color1 = 'rgb('+red.value+','+ green.value+','+ blue.value+')';
     document.body.style.backgroundColor = color1;
     document.getElementById('box').value =color1
 
